@@ -45,7 +45,7 @@ export default function Home() {
           <motion.div
             initial={{ opacity: 0, scale: 0.9, y: 20 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
-            exit={{ opacity: 0, scale: 1.1, blur: '10px' }}
+            exit={{ opacity: 0, scale: 1.1, filter: 'blur(10px)' }}
             className="relative z-10 w-full max-w-md px-6"
           >
             <div className="bg-zinc-900/40 backdrop-blur-xl border border-white/10 p-10 rounded-[2rem] shadow-2xl overflow-hidden relative group">
